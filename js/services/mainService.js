@@ -1,4 +1,4 @@
-angular.module('devmtnTravel').service('mainSrv', function(){
+angular.module('devmtnTravel').service('mainSrv', function() {
 
     this.travelInfo = [{
         city: 'New York',
@@ -15,7 +15,7 @@ angular.module('devmtnTravel').service('mainSrv', function(){
         desc: "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its picturesque 19th-century cityscape is crisscrossed by wide boulevards and the River Sein",
         id: 1122343,
         price: 909
-    },{
+    }, {
         city: 'Sydney',
         country: 'Australia',
         image: "../img/Sydney.jpg",
@@ -24,5 +24,5 @@ angular.module('devmtnTravel').service('mainSrv', function(){
         price: 1112
 
 
-    }]
-})
+    }];
+});
